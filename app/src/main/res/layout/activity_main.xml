@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/cyan"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/IdBtnEmergency"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/red"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/emergency" />
+
+        <Button
+            android:id="@+id/IdBtnAxis"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/joints" />
+
+        <Button
+            android:id="@+id/IdBtnControl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:text="@string/control" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/IdBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/uno" />
+
+        <Button
+            android:id="@+id/IdBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/dos" />
+
+        <Button
+            android:id="@+id/IdBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/tres" />
+
+        <Button
+            android:id="@+id/IdBtnMas"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/mas"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/IdBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/cuatro" />
+
+        <Button
+            android:id="@+id/IdBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/cinco" />
+
+        <Button
+            android:id="@+id/IdBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/seis" />
+
+        <Button
+            android:id="@+id/IdBtnMenos"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/menos"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/IdBtnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/clr" />
+
+        <Button
+            android:id="@+id/IdBtnSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/speed" />
+
+        <Button
+            android:id="@+id/IdBtnMove"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/move" />
+
+        <Button
+            android:id="@+id/IdBtnRecordP"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/record" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/IdBtnOpenClose"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/oc" />
+
+        <Button
+            android:id="@+id/IdBtnAbort"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/abort" />
+
+        <Button
+            android:id="@+id/IdBtnRun"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/run" />
+
+        <Button
+            android:id="@+id/IdBtnExecute"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/execute" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/IdBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/siete" />
+
+        <Button
+            android:id="@+id/IdBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/ocho" />
+
+        <Button
+            android:id="@+id/IdBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/nueve" />
+
+        <Button
+            android:id="@+id/IdBtn0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cyan"
+            android:insetLeft="2dp"
+            android:insetTop="2dp"
+            android:insetRight="2dp"
+            android:insetBottom="2dp"
+            android:text="@string/cero" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

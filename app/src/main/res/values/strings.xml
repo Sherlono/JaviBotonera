@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">javibotonera</string>
+    <string name="teach">TEACH</string>
+    <string name="auto">AUTO</string>
+    <string name="emergency">EMERGENCY</string>
+
+    <string name="grupoA">A</string>
+    <string name="grupoB">B</string>
+    <string name="cero">0</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="menos">-</string>
+    <string name="mas">+</string>
+
+    <string name="joints">JOINTS</string>
+    <string name="setAxis">SELECT AXIS</string>
+    <string name="voidAxis"> --- </string>
+    <string name="axis1">AXIS 1</string>
+    <string name="axis2">AXIS 2</string>
+    <string name="axis3">AXIS 3</string>
+    <string name="axis4">AXIS 4</string>
+    <string name="axis5">AXIS 5</string>
+    <string name="axis6">AXIS 6</string>
+    <string name="axiS7">AXIS 7</string>
+    <string name="axis8">AXIS 8</string>
+    <string name="axis9">AXIS 9</string>
+
+    <string name="xyz">XYZ</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="p">P</string>
+    <string name="r">R</string>
+
+    <string name="clr">CLR</string>
+    <string name="run">RUN</string>
+    <string name="control">CONTROL\nON/OFF</string>
+    <string name="oc">OPEN\nCLOSE</string>
+    <string name="abort">ABORT</string>
+    <string name="move">MOVE\nMOVERS</string>
+    <string name="speed">SPEED (%)\nSPEED (%)</string>
+    <string name="record">RECORD\nPOSITION</string>
+    <string name="execute">EXECUTE</string>
+
+</resources>
