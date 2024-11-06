@@ -1,1 +1,2 @@
-# JavierBotonera
+# JaviBotonera
+Botonera Android Scorbot
